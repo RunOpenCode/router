@@ -1,3 +1,4 @@
+import { RouterInterface } from './router-interface';
 import {
     Context,
     ParsedToken,
@@ -7,9 +8,9 @@ import {
     RoutesMap,
     Token,
     TokenType,
-} from './types';
+}                          from './types';
 
-export class Router {
+export class Router implements RouterInterface {
 
     private readonly _context: Context;
 
