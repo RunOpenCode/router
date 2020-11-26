@@ -16,6 +16,6 @@ export interface RouterInterface {
 
     getRoute(name: string): Route;
 
-    generate(name: string, params: RouteParams, absolute: boolean): string;
+    generate(name: string, params?: RouteParams, absolute?: boolean): string;
 
 }
