@@ -4,7 +4,7 @@
         "type": "git",
         "url": "https://github.com/RunOpenCode/router"
     },
-    "version": "0.0.5",
+    "version": "1.0.0",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "scripts": {
